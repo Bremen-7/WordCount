@@ -57,6 +57,6 @@ int main(int argc, char *argv[]) {
     }
 
     fclose(fp);
-    system("pause"); // 关键：防止运行完毕直接闪退，查看统计结果
+    system("pause"); // 防止运行完毕直接闪退，查看统计结果
     return 0;
 }
